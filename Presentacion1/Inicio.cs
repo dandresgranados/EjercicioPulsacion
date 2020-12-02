@@ -92,7 +92,7 @@ namespace Presentacion1
 
         private void button1_Click(object sender, EventArgs e)
         {
-           BuscarPulsacion();
+           //BuscarPulsacion();
         }
 
         private void BuscarPulsacion()
@@ -109,7 +109,13 @@ namespace Presentacion1
 
         private void buttonEliminar_Click(object sender, EventArgs e)
         {
+            EliminarPulsacion();
+        }
 
+        private void EliminarPulsacion()
+        {
+           string mensaje = pulsacionesServicesDB.Eliminar(TxtCedula.Text);
+            MessageBox.Show(mensaje, "Mensaje de Eliminar", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void botonConsultarTodos(object sender, EventArgs e)

@@ -57,6 +57,23 @@ namespace BLL
 
         }
 
+        public string Eliminar(string cedula)
+        {
+            try
+            {
+                conexion.Open();
+                pulsacionesRepositoryDB.Eliminar(cedula);
+                conexion.Close();
+                return ("El registro se ha eliminado satisfactoriamente.");
+              
+            }
+            catch (Exception e)
+            {
+                return $"Error al Eliminar: {e.Message}";
+            }
+            finally { conexion.Close(); }
+        }
+
 
     }
 }

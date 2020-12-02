@@ -68,12 +68,12 @@ namespace DAL
             return pulsacion;
         }
 
-        public void Eliminar(Pulsaciones pulsacion)
+        public void Eliminar(string cedula)
         {
             using (var command = _connection.CreateCommand())
             {
                 command.CommandText = "DELETE FROM Pulsaciones WHERE Cedula=@Cedula";
-                command.Parameters.AddWithValue("@Cedula", pulsacion.cedula);
+                command.Parameters.AddWithValue("@Cedula", cedula);
                 command.ExecuteNonQuery();
             }
         }
