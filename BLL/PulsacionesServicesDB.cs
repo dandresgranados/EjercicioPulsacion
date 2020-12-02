@@ -35,6 +35,27 @@ namespace BLL
             finally { conexion.Close(); }
         }
 
+        public List<Pulsaciones> ConsultarTodos()
+        {
+            List<Pulsaciones> listaPulsaciones;
+            try
+            {
+                conexion.Open();
+                listaPulsaciones = pulsacionesRepositoryDB.ConsultarTodos();
+                
+                return listaPulsaciones;
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+            finally
+            {
+                conexion.Close();
+
+            }
+
+        }
 
 
     }

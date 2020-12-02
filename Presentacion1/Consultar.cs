@@ -15,10 +15,16 @@ namespace Presentacion1
     public partial class Consultar : Form
     {
         PulsacionesServices pulsacionesServices;
+        PulsacionesServicesDB pulsacionesServicesDB;
         List<Pulsaciones> lista;
+        
         public Consultar()
         {
             pulsacionesServices = new PulsacionesServices();
+
+            var connectionString = ConfigConnection.ConnectionString;
+            pulsacionesServicesDB = new PulsacionesServicesDB(connectionString);
+
             lista = new List<Pulsaciones>();
             InitializeComponent();
             consultar();
@@ -38,16 +44,10 @@ namespace Presentacion1
         }
         private void consultar()
         {
-            try
-            {
-                lista = pulsacionesServices.Consultar();
+            // lista = pulsacionesServices.Consultar();
+            lista = pulsacionesServicesDB.ConsultarTodos();
                 pintarTabla();
                 
-            }
-            catch (Exception el)
-            {
-                MessageBox.Show(el.Message);
-            }
         }
 
         private void Consultar_Load(object sender, EventArgs e)

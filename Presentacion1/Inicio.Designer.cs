@@ -47,46 +47,51 @@
             // 
             // buttonConsultarTodos
             // 
-            this.buttonConsultarTodos.Location = new System.Drawing.Point(60, 299);
+            this.buttonConsultarTodos.Location = new System.Drawing.Point(80, 368);
+            this.buttonConsultarTodos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonConsultarTodos.Name = "buttonConsultarTodos";
-            this.buttonConsultarTodos.Size = new System.Drawing.Size(107, 23);
+            this.buttonConsultarTodos.Size = new System.Drawing.Size(143, 28);
             this.buttonConsultarTodos.TabIndex = 31;
             this.buttonConsultarTodos.Text = "Consultar Todos";
             this.buttonConsultarTodos.UseVisualStyleBackColor = true;
-            this.buttonConsultarTodos.Click += new System.EventHandler(this.button3_Click);
+            this.buttonConsultarTodos.Click += new System.EventHandler(this.botonConsultarTodos);
             // 
             // labelMostrarPulsacion
             // 
             this.labelMostrarPulsacion.AutoSize = true;
             this.labelMostrarPulsacion.BackColor = System.Drawing.Color.Silver;
             this.labelMostrarPulsacion.ForeColor = System.Drawing.Color.Black;
-            this.labelMostrarPulsacion.Location = new System.Drawing.Point(154, 258);
+            this.labelMostrarPulsacion.Location = new System.Drawing.Point(205, 318);
+            this.labelMostrarPulsacion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelMostrarPulsacion.Name = "labelMostrarPulsacion";
-            this.labelMostrarPulsacion.Size = new System.Drawing.Size(13, 13);
+            this.labelMostrarPulsacion.Size = new System.Drawing.Size(16, 17);
             this.labelMostrarPulsacion.TabIndex = 27;
             this.labelMostrarPulsacion.Text = "0";
             // 
             // TxtEdad
             // 
             this.TxtEdad.BackColor = System.Drawing.Color.Silver;
-            this.TxtEdad.Location = new System.Drawing.Point(157, 218);
+            this.TxtEdad.Location = new System.Drawing.Point(209, 268);
+            this.TxtEdad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtEdad.Name = "TxtEdad";
-            this.TxtEdad.Size = new System.Drawing.Size(137, 20);
+            this.TxtEdad.Size = new System.Drawing.Size(181, 22);
             this.TxtEdad.TabIndex = 26;
             // 
             // TxtNombre
             // 
             this.TxtNombre.BackColor = System.Drawing.Color.Silver;
-            this.TxtNombre.Location = new System.Drawing.Point(156, 154);
+            this.TxtNombre.Location = new System.Drawing.Point(208, 190);
+            this.TxtNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtNombre.Name = "TxtNombre";
-            this.TxtNombre.Size = new System.Drawing.Size(137, 20);
+            this.TxtNombre.Size = new System.Drawing.Size(181, 22);
             this.TxtNombre.TabIndex = 24;
             // 
             // botonGuardar
             // 
-            this.botonGuardar.Location = new System.Drawing.Point(187, 299);
+            this.botonGuardar.Location = new System.Drawing.Point(249, 368);
+            this.botonGuardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.botonGuardar.Name = "botonGuardar";
-            this.botonGuardar.Size = new System.Drawing.Size(107, 23);
+            this.botonGuardar.Size = new System.Drawing.Size(143, 28);
             this.botonGuardar.TabIndex = 23;
             this.botonGuardar.Text = "Guardar";
             this.botonGuardar.UseVisualStyleBackColor = true;
@@ -95,9 +100,10 @@
             // TxtCedula
             // 
             this.TxtCedula.BackColor = System.Drawing.Color.Silver;
-            this.TxtCedula.Location = new System.Drawing.Point(157, 118);
+            this.TxtCedula.Location = new System.Drawing.Point(209, 145);
+            this.TxtCedula.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtCedula.Name = "TxtCedula";
-            this.TxtCedula.Size = new System.Drawing.Size(137, 20);
+            this.TxtCedula.Size = new System.Drawing.Size(181, 22);
             this.TxtCedula.TabIndex = 22;
             // 
             // labelPulsacion
@@ -105,9 +111,10 @@
             this.labelPulsacion.AutoSize = true;
             this.labelPulsacion.BackColor = System.Drawing.Color.Silver;
             this.labelPulsacion.ForeColor = System.Drawing.Color.Black;
-            this.labelPulsacion.Location = new System.Drawing.Point(73, 257);
+            this.labelPulsacion.Location = new System.Drawing.Point(97, 316);
+            this.labelPulsacion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelPulsacion.Name = "labelPulsacion";
-            this.labelPulsacion.Size = new System.Drawing.Size(53, 13);
+            this.labelPulsacion.Size = new System.Drawing.Size(69, 17);
             this.labelPulsacion.TabIndex = 21;
             this.labelPulsacion.Text = "Pulsacion";
             // 
@@ -116,9 +123,10 @@
             this.labelEdad.AutoSize = true;
             this.labelEdad.BackColor = System.Drawing.Color.Silver;
             this.labelEdad.ForeColor = System.Drawing.Color.Black;
-            this.labelEdad.Location = new System.Drawing.Point(73, 221);
+            this.labelEdad.Location = new System.Drawing.Point(97, 272);
+            this.labelEdad.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelEdad.Name = "labelEdad";
-            this.labelEdad.Size = new System.Drawing.Size(32, 13);
+            this.labelEdad.Size = new System.Drawing.Size(41, 17);
             this.labelEdad.TabIndex = 20;
             this.labelEdad.Text = "Edad";
             // 
@@ -127,9 +135,10 @@
             this.labelSexo.AutoSize = true;
             this.labelSexo.BackColor = System.Drawing.Color.Silver;
             this.labelSexo.ForeColor = System.Drawing.Color.Black;
-            this.labelSexo.Location = new System.Drawing.Point(73, 189);
+            this.labelSexo.Location = new System.Drawing.Point(97, 233);
+            this.labelSexo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelSexo.Name = "labelSexo";
-            this.labelSexo.Size = new System.Drawing.Size(31, 13);
+            this.labelSexo.Size = new System.Drawing.Size(39, 17);
             this.labelSexo.TabIndex = 19;
             this.labelSexo.Text = "Sexo";
             // 
@@ -138,9 +147,10 @@
             this.labelCedula.AutoSize = true;
             this.labelCedula.BackColor = System.Drawing.Color.Silver;
             this.labelCedula.ForeColor = System.Drawing.Color.Black;
-            this.labelCedula.Location = new System.Drawing.Point(73, 125);
+            this.labelCedula.Location = new System.Drawing.Point(97, 154);
+            this.labelCedula.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelCedula.Name = "labelCedula";
-            this.labelCedula.Size = new System.Drawing.Size(40, 13);
+            this.labelCedula.Size = new System.Drawing.Size(52, 17);
             this.labelCedula.TabIndex = 18;
             this.labelCedula.Text = "Cedula";
             // 
@@ -149,9 +159,10 @@
             this.labelNombre.AutoSize = true;
             this.labelNombre.BackColor = System.Drawing.Color.Silver;
             this.labelNombre.ForeColor = System.Drawing.Color.Black;
-            this.labelNombre.Location = new System.Drawing.Point(73, 157);
+            this.labelNombre.Location = new System.Drawing.Point(97, 193);
+            this.labelNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelNombre.Name = "labelNombre";
-            this.labelNombre.Size = new System.Drawing.Size(44, 13);
+            this.labelNombre.Size = new System.Drawing.Size(58, 17);
             this.labelNombre.TabIndex = 17;
             this.labelNombre.Text = "Nombre";
             // 
@@ -161,18 +172,20 @@
             this.labelTituloInicio.BackColor = System.Drawing.Color.Silver;
             this.labelTituloInicio.Font = new System.Drawing.Font("Century Schoolbook", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTituloInicio.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.labelTituloInicio.Location = new System.Drawing.Point(85, 49);
+            this.labelTituloInicio.Location = new System.Drawing.Point(113, 60);
+            this.labelTituloInicio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTituloInicio.Name = "labelTituloInicio";
-            this.labelTituloInicio.Size = new System.Drawing.Size(184, 32);
+            this.labelTituloInicio.Size = new System.Drawing.Size(225, 40);
             this.labelTituloInicio.TabIndex = 32;
             this.labelTituloInicio.Text = "Pulsaciones";
             this.labelTituloInicio.Click += new System.EventHandler(this.label6_Click);
             // 
             // buttonBuscar
             // 
-            this.buttonBuscar.Location = new System.Drawing.Point(187, 328);
+            this.buttonBuscar.Location = new System.Drawing.Point(249, 404);
+            this.buttonBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonBuscar.Name = "buttonBuscar";
-            this.buttonBuscar.Size = new System.Drawing.Size(107, 23);
+            this.buttonBuscar.Size = new System.Drawing.Size(143, 28);
             this.buttonBuscar.TabIndex = 33;
             this.buttonBuscar.Text = "Buscar";
             this.buttonBuscar.UseVisualStyleBackColor = true;
@@ -180,9 +193,10 @@
             // 
             // buttonEliminar
             // 
-            this.buttonEliminar.Location = new System.Drawing.Point(60, 328);
+            this.buttonEliminar.Location = new System.Drawing.Point(80, 404);
+            this.buttonEliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonEliminar.Name = "buttonEliminar";
-            this.buttonEliminar.Size = new System.Drawing.Size(107, 23);
+            this.buttonEliminar.Size = new System.Drawing.Size(143, 28);
             this.buttonEliminar.TabIndex = 34;
             this.buttonEliminar.Text = "Eliminar";
             this.buttonEliminar.UseVisualStyleBackColor = true;
@@ -195,17 +209,18 @@
             this.comboSexo.Items.AddRange(new object[] {
             "Masculino",
             "Femenino"});
-            this.comboSexo.Location = new System.Drawing.Point(157, 190);
+            this.comboSexo.Location = new System.Drawing.Point(209, 234);
+            this.comboSexo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboSexo.Name = "comboSexo";
-            this.comboSexo.Size = new System.Drawing.Size(136, 21);
+            this.comboSexo.Size = new System.Drawing.Size(180, 24);
             this.comboSexo.TabIndex = 35;
             // 
             // Inicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Presentacion1.Properties.Resources.COLOURlovers_com_Steel_Trap_Closed;
-            this.ClientSize = new System.Drawing.Size(362, 385);
+            this.ClientSize = new System.Drawing.Size(483, 474);
             this.Controls.Add(this.comboSexo);
             this.Controls.Add(this.buttonEliminar);
             this.Controls.Add(this.buttonBuscar);
@@ -221,6 +236,7 @@
             this.Controls.Add(this.labelSexo);
             this.Controls.Add(this.labelCedula);
             this.Controls.Add(this.labelNombre);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Inicio";
             this.Text = "Inicio";
             this.ResumeLayout(false);

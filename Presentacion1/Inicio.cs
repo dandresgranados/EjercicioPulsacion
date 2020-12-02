@@ -82,8 +82,7 @@ namespace Presentacion1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Consultar consultar = new Consultar();
-            consultar.Show();
+            
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -110,6 +109,13 @@ namespace Presentacion1
 
         private void buttonEliminar_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void botonConsultarTodos(object sender, EventArgs e)
+        {
+            Consultar consultar = new Consultar();
+            consultar.Show();
 
         }
     }
