@@ -10,7 +10,6 @@ namespace DAL
 {
     public class PulsacionesRepository
     {
-        // DESKTOP-IO6R9OL\SQLEXPRESS
 
         private readonly string FileName = "Pulsaciones.txt";
         List<Pulsaciones> lista;
